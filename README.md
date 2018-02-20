@@ -22,10 +22,13 @@ Set the virtualenv up
 You should see that (my_env_name) appeared in your command line.
     
     
-## 1.2 install theano
-since the default theano version is deprecated, you need to install a newer version. Fortunately, the one from pip is workable. So just run the following command to install the theano.
+## 1.2 install dependencies (Theano and Lasagne)
+You should be able to install the update-to-date Theano and Lasagne with the following commands:
     
-    (my_env_name)$ pip install theano
+    (my_env_name)$ pip install -r https://raw.githubusercontent.com/Lasagne/Lasagne/master/requirements.txt
+    (my_env_name)$ pip install https://github.com/Lasagne/Lasagne/archive/master.zip
+    
+Check the Lasagne's github if this is deprecated.
     
 # 2. Set this repository up
 Download this repository to the folder you prefer:
